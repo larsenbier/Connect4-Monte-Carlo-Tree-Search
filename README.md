@@ -10,22 +10,22 @@ If you are a skeptical of the executable, you can simply place `main.py`, `searc
 
 # Files
 
-## `main.py`
+### `main.py`
 
 Contains the main function handling the UI and gameplay between a human player and the AI.
 
-## `env.py`
+### `env.py`
 
 Contains the state-space representation of ConnectN (internally called `State`), along with the functions to determine the available actions at a given state and how to apply actions to a state.
 
-## `search.py`
+### `search.py`
 
 Contains the Monte Carlo tree search function. For memory efficiency, nodes in the search tree only contain the action (an integer representing the column to play in), and during playout states are reconstructed by following the history of actions along a branch.
 
-## `tree.py`
+### `tree.py`
 
 A simple `Node` class used for constructing the search tree.
 
-# `Connect4_MCTS.exe`
+### `Connect4_MCTS.exe`
 
 The executable `Connect4_MCTS.exe` was built using PyInstaller on `main.py`. 
