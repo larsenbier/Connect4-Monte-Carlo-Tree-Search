@@ -1,5 +1,7 @@
 # Connect4-Monte-Carlo-Tree-Search
 
+## `main.py`
+
 This repository contains a python Monte Carlo tree search (MCTS) Connect4 AI. 
 
 The game environment is in `env.py`, the MCTS functions are in `search.py`, and the tree/node data structure for MCTS is in `tree.py`
