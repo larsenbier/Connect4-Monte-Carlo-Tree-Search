@@ -6,7 +6,7 @@ Using Monte Carlo Tree Search, we achieve high-performance on generalized Connec
 
 `Connect4_MCTS.exe` is built from `main.py` using PyInstaller and requires no prior setup to play!
 
-If you are a skeptical of the executable, you can simply place `main.py`, `search.py`, `tree.py`, and `env.py` in a folder together, then run `main.py` from any python environment containing `readchar`.
+If you are a skeptical of the executable, you can simply place `main.py`, `search.py`, `tree.py`, and `env.py` in a folder together, then run `main.py` from any python environment with the `readchar` package installed.
 
 # Files
 
