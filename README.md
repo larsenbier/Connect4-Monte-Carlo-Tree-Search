@@ -4,7 +4,7 @@ Using Monte Carlo Tree Search, we achieve high-performance on generalized Connec
 
 # Playing Against the AI
 
-`Connect4_MCTS.exe` is built from `main.py` using PyInstaller and requires no prior setup to play!
+`Connect4MCTS.exe` is built from `main.py` using PyInstaller and requires no prior setup to play!
 
 If you are a skeptical of the executable, you can simply place `main.py`, `search.py`, `tree.py`, and `env.py` in a folder together, then run `main.py` from any python environment with the `readchar` package installed.
 
@@ -26,6 +26,6 @@ Contains the Monte Carlo tree search function. For memory efficiency, nodes in t
 
 A simple `Node` class used for constructing the search tree.
 
-### `Connect4_MCTS.exe`
+### `Connect4MCTS.exe`
 
-The executable `Connect4_MCTS.exe` was built using PyInstaller on `main.py`. 
+The executable `Connect4MCTS.exe` was built using PyInstaller on `main.py`. 
