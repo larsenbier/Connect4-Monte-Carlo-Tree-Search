@@ -13,7 +13,11 @@ def isPositiveInteger(n: str) -> bool:
         return False
     
 def clearWindow():
-    os.system('cls' if os.name == 'nt' else 'clear')
+    """Clears the terminal screen for Windows, macOS, and Linux."""
+    if os.name == 'nt':
+        _ = os.system('cls')
+    else:
+        _ = os.system('clear')
 
 def displayBoard(s: State, red_move, yellow_move, iter_limit, time_limit):
     clearWindow()
@@ -138,6 +142,7 @@ def play(num_iters = 100):
         
 
 play()
+
 
 
 
